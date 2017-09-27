@@ -7,7 +7,7 @@ import { Provider } from 'react-redux';
 import {foApp} from './reducers/reducer';
 import { createStore } from 'redux';
 
-let store = createStore(foApp,[]);
+let store = createStore(foApp,[],window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 
 ReactDOM.render(
     <Provider store={store}>
