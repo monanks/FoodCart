@@ -1,0 +1,82 @@
+.body{
+  background-color: #e6ffcc!important;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+  text-align: center;
+  font-weight: bold;
+  color: white!important;
+}
+
+.App-intros {
+  font-size: large;
+  text-align: center;
+  font-weight: bold;
+  color: darkgreen!important;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.stylehead {
+  height: 30px;
+  width: 1150px;
+  margin: 30px 50px 30px 120px;
+  text-align: center;
+  display: inline-block;
+  background-color:darkolivegreen!important;
+  
+}
+
+.heads{
+  height: auto;
+  width: 560px;
+  margin: 20px;
+  display: inline-block;
+  background-color: darkolivegreen!important;
+}
+
+.cards{
+  width: 500px;
+  height: auto;
+  margin: 10px 10px 10px 40px;
+  background-color:ivory!important;
+}
+
+.papers{
+  width: 500px;
+  margin: 10px 10px 10px 45px;
+  background-color:ivory!important;
+}
+
+.papersfooter{
+  width: 450px;
+  margin-left: -10px!important;
+}
+
+.clrbtn{
+  width: 110px;
+}
+
+.all-font{
+  font-weight: 10px!important;
+}
